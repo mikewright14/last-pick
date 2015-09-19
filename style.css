@@ -1,0 +1,154 @@
+ <style>
+    html {
+      height: 100%;
+    }
+    body {
+       background: #1ABC9C !important;
+      padding: 0;
+      text-align: center;
+      position: relative;
+      margin: 0;
+      height: 100%;
+     
+    }
+  
+  .wrapper {
+      height: auto !important;
+      height: 100%;
+      margin: 0 auto; 
+      overflow: hidden;
+    }
+
+    #myWords{
+        font-size:80px;
+        padding-top:0px !important;
+    }
+    
+    a {
+      text-decoration: none;
+    }
+    
+    
+    h1, h2 {
+      width: 100%;
+      float: left;
+    }
+    h1 {
+      margin-top: 100px;
+      color: #555;
+      margin-bottom: 5px;
+    }
+    h2 {
+      color: #999;
+      font-weight: 100;
+      margin-top: 0;
+      margin-bottom: 10px;
+    }
+    
+    .pointer {
+      color: #9b59b6;
+      font-family: 'Pacifico', cursive;
+      font-size: 30px;
+      margin-top: 15px;
+    }
+    pre {
+      margin: 80px auto;
+    }
+    pre code {
+      padding: 35px;
+      border-radius: 5px;
+      font-size: 15px;
+      background: rgba(0,0,0,0.1);
+      border: rgba(0,0,0,0.05) 5px solid;
+      max-width: 500px;
+    }
+    .main {
+      float: left;
+      width: 100%;
+      margin: 0 auto;
+    }
+    
+    .main h1 {
+      padding:90px 50px;
+      float: left;
+      width: 100%;
+      font-size: 60px;
+      box-sizing: border-box;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      font-weight: 100;
+      color: white;
+      margin: 0;
+      font-family: 'Source Sans Pro', sans-serif;
+      background: #1ABC9C;
+    }
+
+    .main h1.demo1 {
+      background: #1ABC9C;
+    }
+
+    .reload, .btn{
+      display: inline-block;
+      border: 4px solid #FFF;
+      border-radius: 5px;
+      -moz-border-radius: 5px;
+      -webkit-border-radius: 5px;
+      background: rgba(255,255,255, 0.75);
+      display: inline-block;
+      line-height: 100%;
+      padding: 0.7em;
+      text-decoration: none;
+      opacity: 0.7;
+      color: #555;
+      width: 100px;
+      line-height: 140%;
+      font-size: 17px;
+      font-family: open sans;
+      font-weight: bold;
+    }
+    .reload:hover, .btn:hover {
+      background: white;
+    }
+    .btn {
+      width: 200px;
+    }
+    .btns {
+      width: 230px;
+      margin: 50px auto;
+    }
+    .credit {
+      text-align: center;
+      color: #999;
+      padding: 10px;
+      margin: 0 0 40px 0;
+      float: left;
+      width: 100%;
+    }
+    .credit a {
+      color: #555;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .button {
+  border: 0 none;
+  border-radius: 2px 2px 2px 2px;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Arial,sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 20px;
+  margin-bottom: 0;
+  margin-top: 10px;
+  padding: 7px 10px;
+  text-transform: none;
+  transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -webkit-transition: all 0.3s ease 0s;
+  width: 16.795%; /* auto */
+  text-align: center; /* DELETE WHEN WIDTH AUTO */
+      background-color: #E0645C;
+
+  </style>
